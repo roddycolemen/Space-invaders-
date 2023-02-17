@@ -120,4 +120,5 @@ margin_bottom = 720.0
 margin_right = 179.0
 margin_bottom = 14.0
 text = "Copyright Ryan Cather 2022."
+
 [connection signal="pressed" from="Layout/Main/Buttons/Start Game Button" to="Layout/Main/Buttons/Start Game Button" method="_on_Start_Game_Button_pressed"]

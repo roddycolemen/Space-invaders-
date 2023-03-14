@@ -1,8 +1,14 @@
 extends Node 
 
-var bulletInstancecount = 0 # keeps track of how many bullet instaces are current 
-var enemyBulletInstanceCount = 0
+var highScores = 0
 
+var bulletInstanceCount = 0
+var enemyBulletInstanceCount = 0 
 
-
-
+var automaticFiring = false
+var scoringInformation = {
+	"currentScore": 0,
+	"currentPlayer": "User",
+	"highScores": 0,
+	"highScorePlayersName" : "Winner"
+	}

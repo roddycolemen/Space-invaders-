@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=2]
 
-[ext_resource path="res://Audio/backgroundMusic.wav" type="AudioStream" id=1]
+[ext_resource path="res://Audio/onlymp3.to - TOP G themes song  (Lyrics) Andrew Tate's Theme-jOTeBVtlnXU-256k-1654047346253 (1).mp3" type="AudioStream" id=1]
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Enemy/Enemy.tscn" type="PackedScene" id=3]
 [ext_resource path="res://MainGame/MainGame.gd" type="Script" id=4]

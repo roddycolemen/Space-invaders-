@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/onlymp3.to - TOP G themes song  (Lyrics) Andrew Tate's Theme-jOTeBVtlnXU-256k-1654047346253 (1).mp3-7c61a83e11193c0aa250f19e8a062285.mp3str"
+
+[deps]
+
+source_file="res://Audio/onlymp3.to - TOP G themes song  (Lyrics) Andrew Tate's Theme-jOTeBVtlnXU-256k-1654047346253 (1).mp3"
+dest_files=[ "res://.import/onlymp3.to - TOP G themes song  (Lyrics) Andrew Tate's Theme-jOTeBVtlnXU-256k-1654047346253 (1).mp3-7c61a83e11193c0aa250f19e8a062285.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

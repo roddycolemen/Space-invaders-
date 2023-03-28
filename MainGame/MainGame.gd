@@ -12,3 +12,8 @@ func _ready():
 		$HUD/Countdown.text = str(currentTimer)
 		currentTimer = currentTimer - 1
 		print(currentTimer)
+
+
+
+
+

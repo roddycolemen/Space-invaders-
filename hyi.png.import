@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/TOPG .png-93307d12b9bdf422b45f630742e2eb83.stex"
+path="res://.import/hyi.png-9d0f434f44418764781356d1b51b763b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player/TOPG .png"
-dest_files=[ "res://.import/TOPG .png-93307d12b9bdf422b45f630742e2eb83.stex" ]
+source_file="res://hyi.png"
+dest_files=[ "res://.import/hyi.png-9d0f434f44418764781356d1b51b763b.stex" ]
 
 [params]
 

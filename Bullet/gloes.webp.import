@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Agent brown .jpeg-c2126477ac3b041455ce1fd54dddaa0a.stex"
+path="res://.import/gloes.webp-a1a6b8fce9640fdedc0a0829fd81666b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Enemy/Agent brown .jpeg"
-dest_files=[ "res://.import/Agent brown .jpeg-c2126477ac3b041455ce1fd54dddaa0a.stex" ]
+source_file="res://Bullet/gloes.webp"
+dest_files=[ "res://.import/gloes.webp-a1a6b8fce9640fdedc0a0829fd81666b.stex" ]
 
 [params]
 

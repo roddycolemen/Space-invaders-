@@ -19,7 +19,7 @@ margin_top = 1.23187
 margin_right = 1279.23
 margin_bottom = 721.232
 script = ExtResource( 4 )
-countdownMax = 5
+countdownMax = 30
 
 [node name="HUD" type="HBoxContainer" parent="."]
 margin_right = 40.0

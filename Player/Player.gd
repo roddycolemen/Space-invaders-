@@ -1,6 +1,7 @@
 extends KinematicBody2D
 var movement_speed = 200 
 var bulletSource = preload("res://Bullet/Bullet.tscn")
+var hitbox
 
 func _ready():
 	set_process(true)
@@ -26,3 +27,5 @@ func _process(delta):
 		var bulletInstance = bulletSource.instance()
 		bulletInstance.position = Vector2(position.x, position.y-20)
 		get_tree().get_root().add_child(bulletInstance)
+
+

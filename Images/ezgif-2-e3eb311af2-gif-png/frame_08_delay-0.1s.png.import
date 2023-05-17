@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/frame_08_delay-0.1s.png-6b2d4ef9f37fb1d1070e06aee4a1ad80.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Images/ezgif-2-e3eb311af2-gif-png/frame_08_delay-0.1s.png"
+dest_files=[ "res://.import/frame_08_delay-0.1s.png-6b2d4ef9f37fb1d1070e06aee4a1ad80.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

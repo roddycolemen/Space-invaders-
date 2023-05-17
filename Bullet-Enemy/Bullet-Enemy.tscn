@@ -1,21 +1,24 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://Images/ball.jpg" type="Texture" id=1]
 [ext_resource path="res://Bullet-Enemy/Bullet-Enemy.gd" type="Script" id=2]
 
+[sub_resource type="StreamTexture" id=2]
+flags = 4
+load_path = "res://.import/Elite_dart.webp-e44a62972b5a70a053aa64b7f39de654.stex"
+
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 5, 4.57077 )
+extents = Vector2( 6.5, 6 )
 
 [node name="Bullet" type="KinematicBody2D"]
 position = Vector2( 193.956, 142.277 )
 z_index = 2
 script = ExtResource( 2 )
 
-[node name="Ball" type="Sprite" parent="."]
-position = Vector2( 0.0440029, 0.223009 )
-scale = Vector2( 0.0142857, 0.0183673 )
-texture = ExtResource( 1 )
+[node name="Dart" type="Sprite" parent="."]
+position = Vector2( 1.544, -1.27699 )
+scale = Vector2( 0.026, 0.024 )
+texture = SubResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0.0440063, 0.152237 )
+position = Vector2( 1.54401, -1.27699 )
 shape = SubResource( 1 )

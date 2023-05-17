@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/0_MAIN-Tate-Andrew.jpg-ca543824f980f0dd6f819b479dd725ee.stex"
+path="res://.import/frame_29_delay-0.1s.png-7b398672f164a192d4d303689a1e4d38.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Enemy/0_MAIN-Tate-Andrew.jpg"
-dest_files=[ "res://.import/0_MAIN-Tate-Andrew.jpg-ca543824f980f0dd6f819b479dd725ee.stex" ]
+source_file="res://Images/ezgif-2-e3eb311af2-gif-png/frame_29_delay-0.1s.png"
+dest_files=[ "res://.import/frame_29_delay-0.1s.png-7b398672f164a192d4d303689a1e4d38.stex" ]
 
 [params]
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=49 format=2]
 
 [ext_resource path="res://Audio/onlymp3.to - TOP G themes song  (Lyrics) Andrew Tate's Theme-jOTeBVtlnXU-256k-1654047346253 (1).mp3" type="AudioStream" id=1]
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=2]
@@ -6,6 +6,53 @@
 [ext_resource path="res://MainGame/MainGame.gd" type="Script" id=4]
 [ext_resource path="res://Enemy/Enemies.gd" type="Script" id=5]
 [ext_resource path="res://ExampleCode.gd" type="Script" id=6]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_05_delay-0.1s.png" type="Texture" id=7]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_04_delay-0.1s.png" type="Texture" id=8]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_22_delay-0.1s.png" type="Texture" id=9]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_33_delay-0.1s.png" type="Texture" id=10]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_20_delay-0.1s.png" type="Texture" id=11]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_13_delay-0.1s.png" type="Texture" id=12]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_00_delay-0.1s.png" type="Texture" id=13]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_28_delay-0.1s.png" type="Texture" id=14]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_30_delay-0.1s.png" type="Texture" id=15]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_06_delay-0.1s.png" type="Texture" id=16]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_15_delay-0.1s.png" type="Texture" id=17]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_10_delay-0.1s.png" type="Texture" id=18]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_17_delay-0.1s.png" type="Texture" id=19]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_21_delay-0.1s.png" type="Texture" id=20]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_08_delay-0.1s.png" type="Texture" id=21]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_03_delay-0.1s.png" type="Texture" id=22]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_29_delay-0.1s.png" type="Texture" id=23]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_24_delay-0.1s.png" type="Texture" id=24]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_16_delay-0.1s.png" type="Texture" id=25]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_34_delay-0.1s.png" type="Texture" id=26]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_02_delay-0.1s.png" type="Texture" id=27]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_27_delay-0.1s.png" type="Texture" id=28]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_36_delay-0.1s.png" type="Texture" id=29]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_32_delay-0.1s.png" type="Texture" id=30]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_07_delay-0.1s.png" type="Texture" id=31]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_11_delay-0.1s.png" type="Texture" id=32]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_37_delay-0.1s.png" type="Texture" id=33]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_12_delay-0.1s.png" type="Texture" id=34]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_38_delay-0.1s.png" type="Texture" id=35]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_31_delay-0.1s.png" type="Texture" id=36]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_14_delay-0.1s.png" type="Texture" id=37]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_26_delay-0.1s.png" type="Texture" id=38]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_18_delay-0.1s.png" type="Texture" id=39]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_09_delay-0.1s.png" type="Texture" id=40]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_19_delay-0.1s.png" type="Texture" id=41]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_35_delay-0.1s.png" type="Texture" id=42]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_01_delay-0.1s.png" type="Texture" id=43]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_25_delay-0.1s.png" type="Texture" id=44]
+[ext_resource path="res://Images/ezgif-2-e3eb311af2-gif-png/frame_23_delay-0.1s.png" type="Texture" id=45]
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ ExtResource( 13 ), ExtResource( 43 ), ExtResource( 27 ), ExtResource( 22 ), ExtResource( 8 ), ExtResource( 7 ), ExtResource( 16 ), ExtResource( 31 ), ExtResource( 21 ), ExtResource( 40 ), ExtResource( 18 ), ExtResource( 32 ), ExtResource( 34 ), ExtResource( 12 ), ExtResource( 37 ), ExtResource( 17 ), ExtResource( 25 ), ExtResource( 19 ), ExtResource( 39 ), ExtResource( 41 ), ExtResource( 11 ), ExtResource( 20 ), ExtResource( 9 ), ExtResource( 45 ), ExtResource( 24 ), ExtResource( 44 ), ExtResource( 38 ), ExtResource( 28 ), ExtResource( 14 ), ExtResource( 23 ), ExtResource( 15 ), ExtResource( 36 ), ExtResource( 30 ), ExtResource( 10 ), ExtResource( 26 ), ExtResource( 42 ), ExtResource( 29 ), ExtResource( 33 ), ExtResource( 35 ) ],
+"loop": true,
+"name": "default",
+"speed": 24.0
+} ]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 20.9622, 380.576 )
@@ -14,39 +61,48 @@ extents = Vector2( 20.9622, 380.576 )
 extents = Vector2( 662.058, 10 )
 
 [node name="SpaceInvaders" type="Control"]
-margin_left = -0.768188
-margin_top = 1.23187
-margin_right = 1279.23
-margin_bottom = 721.232
+margin_left = -3.0
+margin_top = -2.0
+margin_right = 1261.0
+margin_bottom = 749.0
 script = ExtResource( 4 )
-countdownMax = 30
+countdownMax = 45
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 634, 362 )
+scale = Vector2( 0.68125, 0.722222 )
+frames = SubResource( 3 )
+frame = 12
+playing = true
 
 [node name="HUD" type="HBoxContainer" parent="."]
-margin_right = 40.0
-margin_bottom = 40.0
+margin_left = 15.0
+margin_top = 3.0
+margin_right = 117.0
+margin_bottom = 43.0
 script = ExtResource( 6 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Countdown" type="Label" parent="HUD"]
-margin_top = 13.0
-margin_bottom = 27.0
+margin_top = 4.0
+margin_right = 16.0
+margin_bottom = 35.0
+text = "45
+"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="CurrentScoreLabel" type="Label" parent="HUD"]
-margin_left = 4.0
+margin_left = 20.0
 margin_top = 13.0
-margin_right = 90.0
+margin_right = 106.0
 margin_bottom = 27.0
 text = "Current Score"
 
 [node name="CurrentScore" type="Label" parent="HUD"]
-margin_left = 94.0
+margin_left = 110.0
 margin_top = 13.0
-margin_right = 102.0
+margin_right = 118.0
 margin_bottom = 27.0
 text = "0"
 
@@ -65,7 +121,7 @@ position = Vector2( -5.37704, -0.768158 )
 shape = SubResource( 1 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 642.94, 669.056 )
+position = Vector2( 620, 678 )
 
 [node name="Border_Top" type="KinematicBody2D" parent="." groups=["top"]]
 position = Vector2( 646.934, -31.955 )
@@ -86,101 +142,108 @@ position = Vector2( 705.16, 3.84076 )
 script = ExtResource( 5 )
 
 [node name="Enemy" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 226.241, 73.6566 )
+position = Vector2( 274.84, 432.159 )
 
 [node name="Enemy2" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 332.707, 74.3564 )
+position = Vector2( 86.84, 427.159 )
+
+[node name="0Main-Tate-Andrew" type="Sprite" parent="Enemies/Enemy2"]
+position = Vector2( 77.9999, 288 )
+scale = Vector2( 2.00976, 1.25248 )
 
 [node name="Enemy3" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 7.31857, 74.4248 )
+position = Vector2( -83.16, 427.159 )
 
 [node name="Enemy4" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 116.089, 74.3564 )
+position = Vector2( -433.16, 319.159 )
 
 [node name="Enemy5" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -206.995, 74.4248 )
+position = Vector2( -219.16, 427.159 )
 
 [node name="Enemy6" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -98.2243, 74.3564 )
+position = Vector2( -348.16, 430.159 )
 
 [node name="Enemy7" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -423.612, 74.4248 )
+position = Vector2( -481.16, 429.159 )
 
 [node name="Enemy8" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -314.842, 74.3564 )
+position = Vector2( 327.84, 325.159 )
 
 [node name="Enemy9" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 71.168, 183.27 )
+position = Vector2( 298.84, 132.159 )
 
 [node name="Enemy10" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 177.634, 183.97 )
+position = Vector2( -574.16, 130.159 )
 
 [node name="Enemy11" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -147.754, 184.038 )
+position = Vector2( -181.16, 325.159 )
 
 [node name="Enemy12" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -38.984, 183.97 )
+position = Vector2( -439.16, 138.159 )
 
 [node name="Enemy13" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -362.067, 184.038 )
+position = Vector2( 204.84, 323.159 )
 
 [node name="Enemy14" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -253.297, 183.97 )
+position = Vector2( 78.84, 324.159 )
 
 [node name="Enemy15" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -578.685, 184.038 )
+position = Vector2( -308.16, 326.159 )
 
 [node name="Enemy16" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -469.915, 183.97 )
+position = Vector2( -50.16, 329.159 )
 
 [node name="Enemy17" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 223.936, 294.115 )
+position = Vector2( -564.16, 326.159 )
 
 [node name="Enemy18" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 330.402, 294.815 )
+position = Vector2( -324.16, 134.159 )
 
 [node name="Enemy19" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 5.01413, 294.883 )
+position = Vector2( 133.84, 225.159 )
 
 [node name="Enemy20" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 113.785, 294.815 )
+position = Vector2( 10.84, 227.159 )
 
 [node name="Enemy21" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -209.299, 294.883 )
+position = Vector2( 410.84, 130.159 )
 
 [node name="Enemy22" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -100.529, 294.815 )
+position = Vector2( -58.16, 132.159 )
 
 [node name="Enemy23" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -425.917, 294.883 )
+position = Vector2( 243.84, 230.159 )
 
 [node name="Enemy24" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -317.146, 294.815 )
+position = Vector2( -197.16, 130.159 )
 
 [node name="Enemy25" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 68.864, 403.728 )
+position = Vector2( 373.84, 224.159 )
 
 [node name="Enemy26" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 175.33, 404.428 )
+position = Vector2( 183.84, 134.159 )
 
 [node name="Enemy27" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -150.058, 404.497 )
+position = Vector2( -119.16, 226.159 )
 
 [node name="Enemy28" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -41.288, 404.428 )
+position = Vector2( -632.16, 229.159 )
 
 [node name="Enemy29" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -364.372, 404.497 )
+position = Vector2( -251.16, 231.159 )
 
 [node name="Enemy30" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -255.601, 404.428 )
+position = Vector2( -377.16, 230.159 )
 
 [node name="Enemy31" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -579.789, 404.497 )
+position = Vector2( -503.16, 229.159 )
 
 [node name="Enemy32" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -472.219, 404.428 )
+position = Vector2( 58.84, 134.159 )
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 1 )
 autoplay = true
+
+[node name="0Main-Tate-Andrew" type="Sprite" parent="."]
+position = Vector2( -285, 358 )

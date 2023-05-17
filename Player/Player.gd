@@ -1,5 +1,5 @@
 extends KinematicBody2D
-var movement_speed = 200 
+var movement_speed = 200
 var bulletSource = preload("res://Bullet/Bullet.tscn")
 var hitbox
 

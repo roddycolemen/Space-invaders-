@@ -1,14 +1,10 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Menu/PaletteMosaic-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Menu/buttonFont.tres" type="DynamicFont" id=1]
 [ext_resource path="res://images (2).jpeg" type="Texture" id=2]
+[ext_resource path="res://Back button.gd" type="Script" id=3]
 
 [sub_resource type="StreamTexture" id=1]
-
-[sub_resource type="DynamicFont" id=2]
-size = 64
-outline_color = Color( 0, 0, 0, 1 )
-font_data = ExtResource( 1 )
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -20,17 +16,30 @@ margin_bottom = 720.0
 texture = SubResource( 1 )
 
 [node name="Images(2)" type="Sprite" parent="."]
-position = Vector2( 636, 363 )
+position = Vector2( 640, 357 )
 scale = Vector2( 6.49238, 2.78906 )
 texture = ExtResource( 2 )
 
+[node name="Back button" type="Button" parent="."]
+margin_right = 145.0
+margin_bottom = 50.0
+script = ExtResource( 3 )
+
 [node name="Label" type="Label" parent="."]
-margin_left = 160.0
-margin_top = 344.0
-margin_right = 1032.0
-margin_bottom = 610.0
-size_flags_horizontal = 3
-custom_fonts/font = SubResource( 2 )
-text = "winner"
-align = 1
-uppercase = true
+margin_left = 13.0
+margin_top = 7.0
+margin_right = 126.0
+margin_bottom = 42.0
+custom_fonts/font = ExtResource( 1 )
+text = "back menu"
+
+[node name="Label" type="Label" parent="Label"]
+margin_left = 375.0
+margin_top = 220.0
+margin_right = 444.0
+margin_bottom = 250.0
+rect_scale = Vector2( 2, 2 )
+custom_fonts/font = ExtResource( 1 )
+text = "winner "
+
+[connection signal="pressed" from="Back button" to="Back button" method="_on_Back_button_pressed"]

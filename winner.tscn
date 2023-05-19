@@ -1,6 +1,5 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://Menu/buttonFont.tres" type="DynamicFont" id=1]
 [ext_resource path="res://images (2).jpeg" type="Texture" id=2]
 [ext_resource path="res://Back button.gd" type="Script" id=3]
 
@@ -26,20 +25,19 @@ margin_bottom = 50.0
 script = ExtResource( 3 )
 
 [node name="Label" type="Label" parent="."]
-margin_left = 13.0
-margin_top = 7.0
-margin_right = 126.0
-margin_bottom = 42.0
-custom_fonts/font = ExtResource( 1 )
+margin_left = 19.0
+margin_top = 17.0
+margin_right = 108.0
+margin_bottom = 33.0
 text = "back menu"
 
 [node name="Label" type="Label" parent="Label"]
-margin_left = 375.0
-margin_top = 220.0
-margin_right = 444.0
-margin_bottom = 250.0
-rect_scale = Vector2( 2, 2 )
-custom_fonts/font = ExtResource( 1 )
-text = "winner "
+margin_left = 364.0
+margin_top = 129.0
+margin_right = 463.0
+margin_bottom = 147.0
+rect_scale = Vector2( 3, 3 )
+custom_colors/font_color = Color( 0, 0.203922, 1, 1 )
+text = "Misson Passed "
 
 [connection signal="pressed" from="Back button" to="Back button" method="_on_Back_button_pressed"]

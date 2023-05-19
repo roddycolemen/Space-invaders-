@@ -1,11 +1,13 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://Menu/PaletteMosaic-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Menu/buttonFont.tres" type="DynamicFont" id=1]
 [ext_resource path="res://MainGame/0_MAIN-Tate-Andrew.jpg" type="Texture" id=2]
+[ext_resource path="res://Button.gd" type="Script" id=3]
+[ext_resource path="res://Menu/Orbitron-Bold.ttf" type="DynamicFontData" id=4]
 
 [sub_resource type="DynamicFont" id=1]
 size = 64
-font_data = ExtResource( 1 )
+font_data = ExtResource( 4 )
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -14,14 +16,33 @@ margin_top = -2.0
 margin_bottom = -2.0
 
 [node name="0Main-Tate-Andrew" type="Sprite" parent="."]
-position = Vector2( 637, 365.5 )
+position = Vector2( 638, 361 )
 scale = Vector2( 2.07805, 1.18647 )
 texture = ExtResource( 2 )
 
+[node name="Button" type="Button" parent="0Main-Tate-Andrew"]
+margin_left = -307.0
+margin_top = -304.0
+margin_right = -249.0
+margin_bottom = -267.0
+script = ExtResource( 3 )
+
 [node name="Label" type="Label" parent="0Main-Tate-Andrew"]
-margin_left = -89.0258
-margin_top = -321.542
-margin_right = 84.9742
-margin_bottom = -227.542
+margin_left = -150.622
+margin_top = -46.356
+margin_right = 128.378
+margin_bottom = 47.644
+custom_colors/font_color = Color( 1, 0, 0, 1 )
 custom_fonts/font = SubResource( 1 )
-text = "loser"
+text = "Wanted"
+
+[node name="Label2" type="Label" parent="0Main-Tate-Andrew"]
+margin_left = -299.8
+margin_top = -299.207
+margin_right = -240.8
+margin_bottom = -275.207
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "Back "
+
+[connection signal="pressed" from="0Main-Tate-Andrew/Button" to="0Main-Tate-Andrew/Button" method="_on_Button_pressed"]

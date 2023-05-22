@@ -1,4 +1,12 @@
 extends KinematicBody2D
+
+signal health_updated(health)
+signal
+
+export (float) var max_heath = 100
+
+onready var health = max_health 
+
 var movement_speed = 200
 var bulletSource = preload("res://Bullet/Bullet.tscn")
 var hitbox
@@ -6,7 +14,7 @@ var hitbox
 func _ready():
 	set_process(true)
 	set_physics_process(true)
-
+	
 func _physics_process(delta):
 	if Input.is_action_pressed("ui_left"):
 		move_and_collide(Vector2(-movement_speed * delta, 0))

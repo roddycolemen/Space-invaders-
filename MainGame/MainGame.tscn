@@ -72,7 +72,7 @@ countdownMax = 45
 position = Vector2( 663, 390 )
 scale = Vector2( 0.68125, 0.722222 )
 frames = SubResource( 3 )
-frame = 23
+frame = 34
 playing = true
 
 [node name="HUD" type="HBoxContainer" parent="."]
@@ -122,6 +122,7 @@ shape = SubResource( 1 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( 620, 678 )
+health = 3
 
 [node name="Border_Top" type="KinematicBody2D" parent="." groups=["top"]]
 position = Vector2( 646.934, -31.955 )

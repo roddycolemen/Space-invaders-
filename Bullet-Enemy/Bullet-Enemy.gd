@@ -25,9 +25,6 @@ func _physics_process(delta):
 			else: 
 				
 				print("Enemy Bullets: ", GlobalVariables.enemyBulletInstanceCount)
-			if "Player" in collidedObject.collider.name:
-				collidedObject.get_collider().queue_free()
-				get_tree().change_scene("res://lose.tscn")
 			queue_free()
 
 # Called when the node enters the scene tree for the first time.

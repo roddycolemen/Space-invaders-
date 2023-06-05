@@ -12,3 +12,4 @@ var scoringInformation = {
 	"highScores": 0,
 	"highScorePlayersName" : "Winner"
 	}
+var player 

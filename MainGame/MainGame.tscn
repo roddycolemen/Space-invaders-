@@ -72,7 +72,7 @@ countdownMax = 45
 position = Vector2( 663, 390 )
 scale = Vector2( 0.68125, 0.722222 )
 frames = SubResource( 3 )
-frame = 34
+frame = 37
 playing = true
 
 [node name="HUD" type="HBoxContainer" parent="."]
@@ -159,7 +159,7 @@ position = Vector2( -67.16, 314.159 )
 position = Vector2( -387.16, 309.159 )
 
 [node name="Enemy5" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -562.16, 411.159 )
+position = Vector2( -567.16, 412.159 )
 
 [node name="Enemy6" parent="Enemies" instance=ExtResource( 3 )]
 position = Vector2( 20.84, 408.159 )
@@ -174,13 +174,13 @@ position = Vector2( 475.84, 222.159 )
 position = Vector2( 112.84, 117.159 )
 
 [node name="Enemy10" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -557.16, 217.159 )
+position = Vector2( -594.16, 203.159 )
 
 [node name="Enemy11" parent="Enemies" instance=ExtResource( 3 )]
 position = Vector2( 78.84, 305.159 )
 
 [node name="Enemy12" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -498.16, 118.159 )
+position = Vector2( -507.16, 114.159 )
 
 [node name="Enemy13" parent="Enemies" instance=ExtResource( 3 )]
 position = Vector2( 168.84, 413.159 )
@@ -198,7 +198,7 @@ position = Vector2( -155.16, 408.159 )
 position = Vector2( -500.16, 309.159 )
 
 [node name="Enemy18" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -631.16, 118.159 )
+position = Vector2( -618.16, 112.159 )
 
 [node name="Enemy19" parent="Enemies" instance=ExtResource( 3 )]
 position = Vector2( 218.84, 310.159 )
@@ -216,10 +216,10 @@ position = Vector2( -261.16, 121.159 )
 position = Vector2( 505.84, 421.159 )
 
 [node name="Enemy24" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -387.16, 118.159 )
+position = Vector2( -388.16, 115.159 )
 
 [node name="Enemy25" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 398.84, 119.159 )
+position = Vector2( 477.84, 91.1592 )
 
 [node name="Enemy26" parent="Enemies" instance=ExtResource( 3 )]
 position = Vector2( -9.16, 117.159 )
@@ -234,7 +234,7 @@ position = Vector2( -257.16, 317.159 )
 position = Vector2( -185.16, 218.159 )
 
 [node name="Enemy30" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -339.16, 221.159 )
+position = Vector2( -474.16, 207.159 )
 
 [node name="Enemy31" parent="Enemies" instance=ExtResource( 3 )]
 position = Vector2( -633.16, 312.159 )

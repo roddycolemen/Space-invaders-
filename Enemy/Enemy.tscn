@@ -3,29 +3,30 @@
 [ext_resource path="res://Enemy/Enemy.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 43.3061, 40.9474 )
+extents = Vector2( 26.8063, 24.3582 )
 
 [sub_resource type="StreamTexture" id=3]
 flags = 4
 load_path = "res://.import/Agent smith.jpg-5cd7e9f44c08c9f1dd35833327555b1b.stex"
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 42.7014, 39.6576 )
+extents = Vector2( 27.5, 24.8707 )
 
 [node name="Enemy" type="KinematicBody2D" groups=["enemy"]]
 position = Vector2( 0.911194, -1.91614 )
 script = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -0.604614, 0.685242 )
+position = Vector2( 15.8951, 17.2744 )
 shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 1.5888, 0.416142 )
-scale = Vector2( 0.145, 0.27 )
+position = Vector2( 17.0888, 15.9161 )
+scale = Vector2( 0.0933333, 0.166667 )
 texture = SubResource( 3 )
 
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( 16.0888, 15.9161 )
 shape = SubResource( 2 )

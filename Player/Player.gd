@@ -20,7 +20,7 @@ func _physics_process(delta):
 func reduceHealth():
 	health -= 1
 	if health == 0:
-		get_tree().change_scene("res://Menu/Menu.tscn")
+		get_tree().change_scene("res://lose.tscn")
 	
 func _process(delta):
 	if Input.is_action_pressed("fire"):
